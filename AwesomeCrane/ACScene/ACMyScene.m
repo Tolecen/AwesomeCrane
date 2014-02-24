@@ -21,6 +21,7 @@
     if (self = [super initWithSize:size]) {
         /* Setup your scene here */
         
+		NSLog(@"test");
         
         vectorForce=CGVectorMake(5.0f, -10.0f);
         pointForce=CGPointMake(0.0f, 0.0f);
