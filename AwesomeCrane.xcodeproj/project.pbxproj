@@ -15,15 +15,14 @@
 		A5A7D68418BAE53C0071C196 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A7D68318BAE53C0071C196 /* main.m */; };
 		A5A7D68818BAE53C0071C196 /* ACAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A7D68718BAE53C0071C196 /* ACAppDelegate.m */; };
 		A5A7D68B18BAE53D0071C196 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5A7D68918BAE53C0071C196 /* Main.storyboard */; };
-		A5A7D68E18BAE53D0071C196 /* ACViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A7D68D18BAE53D0071C196 /* ACViewController.m */; };
-		A5A7D69118BAE53D0071C196 /* ACMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A7D69018BAE53D0071C196 /* ACMyScene.m */; };
-		A5A7D69318BAE53D0071C196 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A7D69218BAE53D0071C196 /* Spaceship.png */; };
 		A5A7D69518BAE53D0071C196 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5A7D69418BAE53D0071C196 /* Images.xcassets */; };
 		A5A7D69C18BAE53D0071C196 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A7D69B18BAE53D0071C196 /* XCTest.framework */; };
 		A5A7D69D18BAE53D0071C196 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A7D67518BAE53C0071C196 /* Foundation.framework */; };
 		A5A7D69E18BAE53D0071C196 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A7D67918BAE53C0071C196 /* UIKit.framework */; };
 		A5A7D6A618BAE53D0071C196 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5A7D6A418BAE53D0071C196 /* InfoPlist.strings */; };
 		A5A7D6A818BAE53D0071C196 /* AwesomeCraneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A7D6A718BAE53D0071C196 /* AwesomeCraneTests.m */; };
+		A5A7D6B418BAE5760071C196 /* ACMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A7D6B318BAE5760071C196 /* ACMyScene.m */; };
+		A5A7D6B818BAE5A90071C196 /* ACViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A7D6B718BAE5A90071C196 /* ACViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,17 +48,16 @@
 		A5A7D68618BAE53C0071C196 /* ACAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACAppDelegate.h; sourceTree = "<group>"; };
 		A5A7D68718BAE53C0071C196 /* ACAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACAppDelegate.m; sourceTree = "<group>"; };
 		A5A7D68A18BAE53D0071C196 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A5A7D68C18BAE53D0071C196 /* ACViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACViewController.h; sourceTree = "<group>"; };
-		A5A7D68D18BAE53D0071C196 /* ACViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACViewController.m; sourceTree = "<group>"; };
-		A5A7D68F18BAE53D0071C196 /* ACMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACMyScene.h; sourceTree = "<group>"; };
-		A5A7D69018BAE53D0071C196 /* ACMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACMyScene.m; sourceTree = "<group>"; };
-		A5A7D69218BAE53D0071C196 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		A5A7D69418BAE53D0071C196 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A5A7D69A18BAE53D0071C196 /* AwesomeCraneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AwesomeCraneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5A7D69B18BAE53D0071C196 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		A5A7D6A318BAE53D0071C196 /* AwesomeCraneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AwesomeCraneTests-Info.plist"; sourceTree = "<group>"; };
 		A5A7D6A518BAE53D0071C196 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A5A7D6A718BAE53D0071C196 /* AwesomeCraneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AwesomeCraneTests.m; sourceTree = "<group>"; };
+		A5A7D6B218BAE5760071C196 /* ACMyScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACMyScene.h; sourceTree = "<group>"; };
+		A5A7D6B318BAE5760071C196 /* ACMyScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACMyScene.m; sourceTree = "<group>"; };
+		A5A7D6B618BAE5A90071C196 /* ACViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACViewController.h; sourceTree = "<group>"; };
+		A5A7D6B718BAE5A90071C196 /* ACViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,14 +119,11 @@
 		A5A7D67D18BAE53C0071C196 /* AwesomeCrane */ = {
 			isa = PBXGroup;
 			children = (
+				A5A7D6B518BAE58D0071C196 /* ACController */,
+				A5A7D6B118BAE5650071C196 /* ACScene */,
 				A5A7D68618BAE53C0071C196 /* ACAppDelegate.h */,
 				A5A7D68718BAE53C0071C196 /* ACAppDelegate.m */,
 				A5A7D68918BAE53C0071C196 /* Main.storyboard */,
-				A5A7D68C18BAE53D0071C196 /* ACViewController.h */,
-				A5A7D68D18BAE53D0071C196 /* ACViewController.m */,
-				A5A7D68F18BAE53D0071C196 /* ACMyScene.h */,
-				A5A7D69018BAE53D0071C196 /* ACMyScene.m */,
-				A5A7D69218BAE53D0071C196 /* Spaceship.png */,
 				A5A7D69418BAE53D0071C196 /* Images.xcassets */,
 				A5A7D67E18BAE53C0071C196 /* Supporting Files */,
 			);
@@ -162,6 +157,24 @@
 				A5A7D6A418BAE53D0071C196 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5A7D6B118BAE5650071C196 /* ACScene */ = {
+			isa = PBXGroup;
+			children = (
+				A5A7D6B218BAE5760071C196 /* ACMyScene.h */,
+				A5A7D6B318BAE5760071C196 /* ACMyScene.m */,
+			);
+			path = ACScene;
+			sourceTree = "<group>";
+		};
+		A5A7D6B518BAE58D0071C196 /* ACController */ = {
+			isa = PBXGroup;
+			children = (
+				A5A7D6B618BAE5A90071C196 /* ACViewController.h */,
+				A5A7D6B718BAE5A90071C196 /* ACViewController.m */,
+			);
+			path = ACController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,7 +256,6 @@
 			files = (
 				A5A7D68218BAE53C0071C196 /* InfoPlist.strings in Resources */,
 				A5A7D69518BAE53D0071C196 /* Images.xcassets in Resources */,
-				A5A7D69318BAE53D0071C196 /* Spaceship.png in Resources */,
 				A5A7D68B18BAE53D0071C196 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,9 +276,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5A7D68818BAE53C0071C196 /* ACAppDelegate.m in Sources */,
-				A5A7D68E18BAE53D0071C196 /* ACViewController.m in Sources */,
-				A5A7D69118BAE53D0071C196 /* ACMyScene.m in Sources */,
+				A5A7D6B418BAE5760071C196 /* ACMyScene.m in Sources */,
 				A5A7D68418BAE53C0071C196 /* main.m in Sources */,
+				A5A7D6B818BAE5A90071C196 /* ACViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
